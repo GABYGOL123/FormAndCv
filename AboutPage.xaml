@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.MainPage">
+
+    <StackLayout>
+        <Label Text=" "/>
+        <Label Text="Bienvenido, ingrese sus datos" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"/>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Nombre:" />
+            <Entry Placeholder="Ingrese su Nombre" />
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Edad:" />
+            <Entry Placeholder="Ingresa tu edad" />
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Ocupacion:" />
+            <Entry Placeholder="Ingresa tu ocupacion" />
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Direccion:" />
+            <Entry Placeholder="Ingresa tu direccion" />
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Universidad" />
+            <Entry Placeholder="Ingrese el nombre de su Universidad" />
+        </StackLayout>
+        <Button Text="Enviar"
+                BackgroundColor="Blue">
+            
+        </Button>
+           
+    </StackLayout>
+
+</ContentPage>
